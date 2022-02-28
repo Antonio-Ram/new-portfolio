@@ -1,6 +1,8 @@
 import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
+import Contact from './components/Contact';
+import ContactForm from './components/Contact';
 
 function App() {
 
@@ -8,6 +10,7 @@ function App() {
     <div>
       <Nav></Nav>
      <main>
+       <ContactForm></ContactForm>
        <About></About>
      </main>
     </div>
