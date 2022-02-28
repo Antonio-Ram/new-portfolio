@@ -11,7 +11,7 @@ function Nav(props) {
         <header>
             <h2>
                 <a href="/">
-                    Nav
+                    Antonio Ramirez
                 </a>
             </h2>
             <nav>
