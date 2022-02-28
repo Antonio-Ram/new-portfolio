@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function Nav(props) {
     
@@ -19,7 +19,7 @@ function Nav(props) {
             <nav>
                 <ul className='flex-row'>
                     <li className='mx-2'>
-                        <a href="#about" onClick={() => setContactSelected(false)}>
+                        <a href="/" onClick={() => setContactSelected(false), setResumeSelected(false)}>
                             About me
                         </a>
                     </li>
