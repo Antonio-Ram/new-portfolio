@@ -1,7 +1,12 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
     
+    const {
+        contactSelected,
+        setContactSelected
+    } = props;
+
     return(
         <header>
             <h2>
@@ -12,12 +17,12 @@ function Nav() {
             <nav>
                 <ul className='flex-row'>
                     <li className='mx-2'>
-                        <a href="#about">
+                        <a href="#about" onClick={() => setContactSelected(false)}>
                             About me
                         </a>
                     </li>
                     <li>
-                        <span>Contact</span>
+                        <span onClick={() => setContactSelected(true)}>Contact</span>
                     </li>
                    <li className='mx-1'>
                        <span>Portfolio</span>
