@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Nav() {
+    
     return(
         <header>
             <h2>
@@ -18,6 +19,12 @@ function Nav() {
                     <li>
                         <span>Contact</span>
                     </li>
+                   <li className='mx-1'>
+                       <span>Portfolio</span>
+                   </li>
+                   <li className='mx-3'>
+                       <span>Resume</span>
+                   </li>
                 </ul>
             </nav>
         </header>
