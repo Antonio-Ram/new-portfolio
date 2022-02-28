@@ -6,7 +6,8 @@ function Nav(props) {
         contactSelected,
         setContactSelected,
         resumeSelected,
-        setResumeSelected
+        setResumeSelected,
+        closeAll
     } = props;
 
     return(
@@ -19,9 +20,7 @@ function Nav(props) {
             <nav>
                 <ul className='flex-row'>
                     <li className='mx-2'>
-                        <a href="/" onClick={() => setContactSelected(false), setResumeSelected(false)}>
-                            About me
-                        </a>
+                        <span onClick={() => closeAll()}>About Me</span>
                     </li>
                     <li className='mx-2'> 
                         <span onClick={() => setContactSelected(true)}>Contact</span>

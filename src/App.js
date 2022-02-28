@@ -7,6 +7,11 @@ import Resume from './components/Resume';
 function App() {
   const [contactSelected, setContactSeleceted] =useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
+
+  function closeAll(){
+    setContactSeleceted(false);
+    setResumeSelected(false);
+  }
   return (
     <div>
       <Nav
@@ -14,6 +19,7 @@ function App() {
         setContactSelected={setContactSeleceted}  
         resumeSelected={resumeSelected}    
         setResumeSelected={setResumeSelected}
+        closeAll={closeAll}
 
       ></Nav>
      <main>
