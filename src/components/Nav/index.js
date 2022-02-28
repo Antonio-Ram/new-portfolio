@@ -4,7 +4,9 @@ function Nav(props) {
     
     const {
         contactSelected,
-        setContactSelected
+        setContactSelected,
+        resumeSelected,
+        setResumeSelected
     } = props;
 
     return(
@@ -21,14 +23,14 @@ function Nav(props) {
                             About me
                         </a>
                     </li>
-                    <li>
+                    <li className='mx-2'> 
                         <span onClick={() => setContactSelected(true)}>Contact</span>
                     </li>
-                   <li className='mx-1'>
+                   <li className='mx-2'>
                        <span>Portfolio</span>
                    </li>
-                   <li className='mx-3'>
-                       <span>Resume</span>
+                   <li className='mx-2'>
+                       <span onClick={() => setResumeSelected(true)}>Resume</span>
                    </li>
                 </ul>
             </nav>

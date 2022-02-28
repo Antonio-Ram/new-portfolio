@@ -6,22 +6,28 @@ import Resume from './components/Resume';
 
 function App() {
   const [contactSelected, setContactSeleceted] =useState(false);
-
+  const [resumeSelected, setResumeSelected] = useState(false);
   return (
     <div>
       <Nav
         contactSelected={contactSelected}
-        setContactSelected={setContactSeleceted}      
+        setContactSelected={setContactSeleceted}  
+        resumeSelected={resumeSelected}    
+        setResumeSelected={setResumeSelected}
+
       ></Nav>
      <main>
-       {!contactSelected ? (
+       {contactSelected ? (
          <>
-          <About></About>
+          <ContactForm></ContactForm>
          </>
+       ): resumeSelected ? (
+         <>
+        <Resume></Resume>
+        </>
        ): (
-         <ContactForm></ContactForm>
+       <About></About>
        )}
-       <Resume></Resume>
      </main>
     </div>
   );
