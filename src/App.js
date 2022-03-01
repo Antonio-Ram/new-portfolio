@@ -3,14 +3,17 @@ import Nav from './components/Nav';
 import About from './components/About';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
 
 function App() {
   const [contactSelected, setContactSeleceted] =useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
 
   function closeAll(){
     setContactSeleceted(false);
     setResumeSelected(false);
+    setPortfolioSelected(false);
   }
   return (
     <div>
@@ -19,6 +22,7 @@ function App() {
         setContactSelected={setContactSeleceted}  
         resumeSelected={resumeSelected}    
         setResumeSelected={setResumeSelected}
+        setPortfolioSelected={setPortfolioSelected}
         closeAll={closeAll}
 
       ></Nav>
@@ -31,7 +35,9 @@ function App() {
          <>
         <Resume></Resume>
         </>
-       ): (
+       ): portfolioSelected ? (
+        <Portfolio></Portfolio>
+       ) : (
        <About></About>
        )}
      </main>

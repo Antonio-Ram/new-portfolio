@@ -7,7 +7,7 @@ function About() {
         <h1 id="about">Who am I?</h1>
         <div className='flex-row'>
          <img src={coverImage} className='my-2' style={{ width: "50%" }} alt="cover" />
-            <p className='my-2'>I am newly initiatied developer! I have learned several languages that I feel confident working with and skills to learn new languages. 
+            <p className='my-2' style={{ width: "45%"}}>I am newly initiatied developer! I have learned several languages that I feel confident working with and skills to learn new languages. 
             The course taught us how to handle new information and trouble shoot any errors or bugs we may experience. On top of that, we were taught 
             how to search for information we were missing and how to deal with frustrations that may occur. 
             Outside of coding, I am a University of Michigan graduate with a bachelors is Sociology.  This enabled me to look at the world from a different point of view, where

@@ -7,6 +7,7 @@ function Nav(props) {
         setContactSelected,
         resumeSelected,
         setResumeSelected,
+        setPortfolioSelected,
         closeAll
     } = props;
 
@@ -26,7 +27,7 @@ function Nav(props) {
                         <span onClick={() => setContactSelected(true)}>Contact</span>
                     </li>
                    <li className='mx-2'>
-                       <span>Portfolio</span>
+                       <span onClick={() => setPortfolioSelected(true)}>Portfolio</span>
                    </li>
                    <li className='mx-2'>
                        <span onClick={() => setResumeSelected(true)}>Resume</span>
