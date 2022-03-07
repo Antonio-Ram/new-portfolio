@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/new-portfolio/static/css/main.8832ea63.css",
+    "main.js": "/new-portfolio/static/js/main.3e817095.js",
+    "static/js/787.8d4efb73.chunk.js": "/new-portfolio/static/js/787.8d4efb73.chunk.js",
+    "static/media/Run-buddy.jpg": "/new-portfolio/static/media/Run-buddy.9f7c0181f7731a41f857.jpg",
+    "static/media/ReadMeGen.jpg": "/new-portfolio/static/media/ReadMeGen.6d12b8c066453852dcfd.jpg",
+    "static/media/Notes.jpg": "/new-portfolio/static/media/Notes.6d429ac2360286054466.jpg",
+    "static/media/Planner.jpg": "/new-portfolio/static/media/Planner.3bd3148176a2d8a91c4c.jpg",
+    "static/media/SocNet.jpg": "/new-portfolio/static/media/SocNet.3e3bbde993560bbb8ce4.jpg",
+    "static/media/Refactor.jpg": "/new-portfolio/static/media/Refactor.9fea36f000f93d8a5196.jpg",
+    "static/media/cover-image.jpg": "/new-portfolio/static/media/cover-image.b72a42abfe45a764fb20.jpg",
+    "index.html": "/new-portfolio/index.html",
+    "main.8832ea63.css.map": "/new-portfolio/static/css/main.8832ea63.css.map",
+    "main.3e817095.js.map": "/new-portfolio/static/js/main.3e817095.js.map",
+    "787.8d4efb73.chunk.js.map": "/new-portfolio/static/js/787.8d4efb73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8832ea63.css",
+    "static/js/main.3e817095.js"
+  ]
+}
